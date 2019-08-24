@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+th {
+	background : green;
+	color: #fff;
+}
+table { border-collapse: collapse; }
+tr { border: solid thin; }
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #3f51b5;
+    color: white;
+}
+#table {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+}
+#table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-transform: capitalize;
+}
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 1% 5%;
+    text-align: left;
+}
+.pagination {
+    padding: 0% 40% !important;
+}
+.dropdown li{
+	cursor : pointer !important;
+}
+.changeType{
+	width:20%;
+}
+label {
+    float: left !important;
+}
+.fa-filter{
+    cursor: pointer;
+}
+.button{
+    margin-top: 12%;
+}
+.checkbox span{
+    font-size: 1.3vw;
+    text-transform: capitalize;
+}
+.checkbox{
+    margin-top: 4%;
+}
+.App {
+    text-align: center;
+  }

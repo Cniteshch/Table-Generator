@@ -1,0 +1,53 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "lodash": "^4.17.15",
+    "namor": "^1.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "react-scripts": "0.9.5",
+    "react-toolbox": "^2.0.0-beta.13",
+    "react-toolbox-themr": "^1.0.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "rodal": "^1.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "toolbox": "react-toolbox-themr"
+  },
+  "reactToolbox": {
+    "include": [
+      "BUTTON",
+      "DATE_PICKER",
+      "TIME_PICKER",
+      "TABLE",
+      "TABS",
+      "NAVIGATION",
+      "DROPDOWN",
+      "CHECKBOX",
+      "AUTOCOMPLETE",
+      "SNACKBAR",
+      "TABS",
+      "TOOLTIP",
+      "RADIO"
+    ],
+    "customProperties": {
+      "animation-duration": "0.3s",
+      "color-accent": "var(--palette-pink-a200)",
+      "color-accent-dark": "var(--palette-pink-700)",
+      "color-primary-contrast": "var(--color-dark-contrast)",
+      "color-accent-contrast": "var(--color-dark-contrast)"
+    },
+    "output": "assets/react-toolbox"
+  }
+}
